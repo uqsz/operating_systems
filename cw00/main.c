@@ -5,4 +5,5 @@ int main(){
     printf("Hello world!\n");
     char* p;
     p=malloc(sizeof(char*));
+    int i=0;
 }
