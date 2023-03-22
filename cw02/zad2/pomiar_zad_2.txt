@@ -1,0 +1,12 @@
+executed in 0.1000s with 1 buffer size
+executed in 0.0000s with 1024 buffer size
+ 
+executed in 0.1000s with 1 buffer size
+executed in 0.0000s with 1024 buffer size
+ 
+executed in 0.1000s with 1 buffer size
+executed in 0.0000s with 1024 buffer size
+ 
+executed in 0.1295s with 1 buffer size
+executed in 0.0007s with 1024 buffer size
+ 

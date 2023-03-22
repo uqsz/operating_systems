@@ -1,0 +1,29 @@
+REPL>>>
+init executed in 0.0000s
+REPL>>>
+count executed in 0.0003s
+REPL>>>
+count executed in 0.0003s
+REPL>>>
+count executed in 0.0002s
+REPL>>>  80  213 2179 libwc.c
+
+
+show executed in 0.0000s
+REPL>>>  34  113 1097 libwc.h
+
+
+show executed in 0.0000s
+REPL>>>  93  235 2639 main.c
+
+
+show executed in 0.0000s
+REPL>>>
+delete executed in 0.0000s
+REPL>>>
+delete executed in 0.0000s
+REPL>>>
+delete executed in 0.0000s
+REPL>>>
+destroy executed in 0.0000s
+REPL>>>

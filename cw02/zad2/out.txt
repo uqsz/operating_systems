@@ -1,0 +1,305 @@
+]23[.tnetni s'redoc eht si taht fi 0 == )1 & x( sa nettirw eb tsum hcihw ,0 == 1 & x sa hcus snoisserpxe ni )RO esiwtib( | dna )DNA esiwtib( & srotarepo eht )ot roirp detucexe si( naht ylthgit erom sdnib == rotarepo eht ,elpmaxe roF .evitiutni syawla ton si ecnedecerp rotarepo C ehT
+
+]13[.tnemngissa eht retfa orez ton si a fi eurt sa detaulave eb lliw hcihw ,)1 + b = a( fi sa nettirw eb ylnekatsim thgim )1 + b == a( fi noisserpxe lanoitidnoc eht ,elpmaxe roF .)sgninraw ecudorp srelipmoc emos hguohtla( egassem rorre na ecudorp ton seod ekatsim eht ,sesac ynam ni dna ,rehto eht fo ecalp ni eno fo esu latnedicca eht ni tluser yam )ytilauqe dna tnemngissa( srotarepo owt eseht neewteb ytiralimis ehT .ytilauqe rof tset ot == rotarepo eht sesu C .sevitavired sti dna LOGLA ekilnu tub ,I/LP dna nartroF fo tnedecerp eht gniwollof ,tnemngissa etacidni ot )ytilauqe sserpxe ot scitamehtam ni desu( = rotarepo eht sesu C
+)emanepyt( :noisrevnoc epyt
+) ( :gnipuorg noisserpxebus
+, :gnicneuqes
+] [ ,* ,& :ecnerefered dna ecnerefer
+=> ,> ,=< ,< :snoitaler redro
+foezis :ezis tcejbo
+>- ,. :noitceles rebmem
+-- ,++ :tnemerced dna tnemercni
+) ( :snoitcnuf gnillac
+=! ,== :gnitset ytilauqe
+: ? :noitaulave lanoitidnoc
+|| ,&& ,! :cigol naeloob
+>> ,<< :stfihs esiwtib
+^ ,| ,& ,~ :cigol esiwtib
+=>> ,=<< ,=^ ,=| ,=& ,=% ,=/ ,=* ,=- ,=+ :tnemngissa detnemgua
+= :tnemngissa
+% ,/ ,* ,- ,+ :citemhtira
+
+:rof srotarepo sah C .noisserpxe taht gnitaulave elihw demrofrep eb ot snoitalupinam eht yficeps ot noisserpxe na nihtiw desu slobmys era hcihw ,srotarepo fo tes hcir a stroppus C
+++C dna C ni srotarepO :elcitra niaM
+srotarepO
+
+]03[.drow devreser a sa devomer neeb ]?nehw[won sah dna ,detnemelpmi modles saw siht tub ,yrtne dellac drow devreser a dedulcni ylsuoiverp egaugnal ehT .sreifitnedi derocsrednu rof smynonys tneinevnoc erom enifed od sredaeh dradnats emoS .egaugnal gnimmargorp eht ot snoisnetxe eseht gnitroppus detrats snoitatnemelpmi C nehw detceffa eb ton dluow ti ,sreifitnedi eseht gnisu neeb evah ton dluohs edoc ecruos margorp gnitsixe ecniS .snoitatnemelpmi yb ylno esu rof dradnats C eht yb devreser ylsuoiverp erew mrof taht fo sreifitnedi esuaceb ,rettel latipac a yb dewollof erocsrednu na htiw nigeb sdrow devreser yltnecer eht fo tsoM
+lacol_daerhT_
+tressa_citatS_
+nruteroN_
+cireneG_
+cimotA_
+fongilA_
+sangilA_
+
+]92[:sdrow erom neves devreser 11C
+tcirtser
+enilni
+yranigamI_
+xelpmoC_
+looB_
+
+:sdrow erom evif devreser 99C
+elihw
+elitalov
+diov
+dengisnu
+noinu
+fedepyt
+hctiws
+tcurts
+citats
+foezis
+dengis
+trohs
+nruter
+retsiger
+gnol
+tni
+fi
+otog
+rof
+taolf
+nretxe
+mune
+esle
+elbuod
+od
+tluafed
+eunitnoc
+tsnoc
+rahc
+esac
+kaerb
+otua
+
+:denifederp era yeht hcihw rof esoht naht rehto sesoprup yna rof desu eb tonnac taht sdrow eht era hcihw ,sdrowyek sa nwonk osla ,sdrow devreser 23 sah 98C
+sdrow devreseR
+
+.dradnats C eht fo noisiver hcae htiw desaercni sah stes retcarahc dednetxe rof troppus emit-nuR .nruter egairrac dna ,ecapskcab ,trela rof snoitatneserper htiw gnola ,sretcarahc emas eht sniatnoc tes retcarahc noitucexe C cisab ehT
+
+.detnemelpmi ylediw tey ton si erutaef siht hguohtla ,)retcarahc lamicedaxeh a setoned X eht erehw( gnidocne XXXXXXXXU\ ro XXXXu\ gnisu yb txet ecruos C nihtiw ylbatrop deddebme eb ot sretcarahc edocinU lanoitan-itlum swolla )11C( dradnats C tsetal ehT .elbatrop yleritne ton era yeht tub ,slaretil gnirts ni desu eb yam sretcarahc dedocne etyb-itlum lanoitiddA
+
+.eno sa ti staert C ecneinevnoc rof hguohtla ,retcarahc elgnis lautca na ot dnopserroc ton deen ti ;enil txet a fo dne eht setacidni enilweN
+enilwen ,deef mrof ,bat lacitrev ,bat latnoziroh ,ecaps :sretcarahc ecapsetihW
+~ } | { _ ^ ] \ [ ? > = < ; : / . - , + * ) ( ' & % # " ! :sretcarahc cihparG
+9ìÄ‚0 :stigid lamiceD
+ZìÄ‚A zìÄ‚a :tebahplA nitaL cisaB OSI fo srettel esacreppu dna esacrewoL
+
+:sretcarahc gniwollof eht sedulcni tes retcarahc ecruos C cisab ehT
+tes retcarahC
+
+.erawtfos gnitsixe ydaerla no segnahc hcus fo tcapmi eht fo esuaceb ,sehsimelb eseht fo ynam tcerroc ot tpmetta ton did dradnats C ehT ]82[".retteb eb dluoc xatnys eht fo strap emos ;ecnedecerp gnorw eht evah srotarepo eht fo emoS .sehsimelb sti sah ,egaugnal rehto yna ekil ,C" :egaugnaL gnimmargorP C ehT fo noitcudortnI eht ni yas eihctiR dna nahginreK
+
+.segaugnal gnimmargorp rehto rof dedeen si naht stluser elbailer niatbo ot erac erom ekat ot sremmargorp C seriuqer tub ,relipmoc eht yb noitazimitpo edoc tcejbo fo eerged hgih a stimrep sihT .)rotarepo ammoc eht dna :? ,|| ,&&( srotarepo niatrec gniniatnoc snoisserpxe fo noitaulave gnirud rucco osla stniop ecneuqeS .llac noitcnuf hcae morf nruter dna ot yrtne eht dna ,tnemetats noisserpxe hcae fo dne eht edulcni stniop ecneuqes ;"tniop ecneuqes" txen eht erofeb rucco lliw )selbairav ot egarots gnidulcni( stceffe edis lla ,revewoH .devaelretni eb neve yam snoitaulave ehT .deificepsnu si detaulave era srotarepo tsom ot sdnarepo dna snoitcnuf ot stnemugra hcihw ni redro ehT .sllac noitcnuf niatnoc yam dna srotarepo ni-tliub fo yteirav a esu nac snoisserpxE
+
+.kaerb a yb detanimret sselnu esac txen eht ot hguorht llaf lliw wolf-lortnoc ,segaugnal rehto ynam morf tnereffiD .noisserpxe regetni na fo eulav eht no desab detucexe eb ot esac a stceles hctiws .noitcnuf eht nihtiw lebal detangised eht ot yltcerid sehcnarb hcihw tnemetats otog derutcurts-non a osla si erehT .noitasilaitinier sti ot piks ot desu si eunitnoc dna tnemetats pool gnisolcne tsomrenni eht evael ot desu si kaerB .pool eht nihtiw desu eb nac eunitnoc dna kaerb .dettimo eb nac hcihw fo lla ro yna ,snoisserpxe noitazilaitinier dna ,gnitset ,noitazilaitini etarapes sah tnemetats rof ehT .)gnipool( noitucexe evitareti rof dna ,elihw ,elihw ... od yb dna noitucexe lanoitidnoc ]esle[ ... fi yb detroppus si gnimmargorp derutcurtS .sdrowyek devreser yb deifitnedi stnemetats wolf-lortnoc lareves sedivorp C ,stnemetats fo noitucexe laitneuqes lamron eht yfidom oT .seulav wen dengissa eb yam selbairav dna dellac eb yam snoitcnuf ,noitaulave eht fo tceffe edis a sa ;nolocimes a yb dewollof ,detaulave eb ot noisserpxe na fo gnitsisnoc ,tnemetats noisserpxe na si tnemetats nommoc tsom ehT .snoitca yficeps ot stnemetats sesu C ,egaugnal evitarepmi na sA
+
+.serutcurts lortnoc rof tnemetats elgnis a sa tca ot dna snoitaralced fo epocs eht timil ot )"stekcarb ylruc" dellac semitemos ,} dna {( secarb ni desolcne era edoc fo snoitceS .sepyt ni-tliub yficeps tni dna rahc sa hcus sdrowyeK .eman elbairav eht yb dewollof epyt eht gnitirw yb yllausu ,selbairav wen rof egarots evreser spahrep dna ot sepyt ngissa ro ,mune dna ,noinu ,tcurts sa hcus sdrowyek gnisu sepyt wen enifed rehtie snoitaralceD .stnemetats dna snoitaralced niatnoc ,nrut ni ,snoitinifed noitcnuF .snoitinifed noitcnuf dna snoitaralced niatnoc selif ecruos C
+
+]72[.slaretil retcarahc ro gnirts edisni raeppa yeht fi sretimiled tnemmoc sa deterpretni ton era sretcarahc fo secneuqes eseht dna ,tsen ton od /* dna */ yb detimiled stnemmoC .enil eht fo dne eht litnu // gniwollof )99C ecnis( ro ,/* dna */ sretimiled eht neewteb rehtie raeppa yam stnemmoC .esahp gnissecorperp eht gnirud ecnacifingis evah od seiradnuob enil ,revewoh ;C ni tnacifingis ton yllareneg era sgnidne eniL ]62[.dradnats C eht yb deificeps rammarg lamrof a sah C
+xatnys C :elcitra niaM
+xatnyS
+
+.gnisserdda erawdrah O/I cisab dna ,secaps sserdda deman ,citemhtira tniop-dexif sa hcus ,C lamron ni elbaliava ton serutaef fo rebmun a sedulcni tI .ot erehda ot snoitatnemelpmi lla rof dradnats nommoc a gnidivorp yb seussi eseht sserdda ot ]52[egaugnal C eht gnidnetxe troper lacinhcet a dehsilbup eettimmoC sdradnatS C eht ,8002 nI
+
+.snoitarepo O/I cisab dna ,sknab yromem tcnitsid elpitlum ,citemhtira tniop-dexif sa hcus serutaef citoxe troppus ot redro ni egaugnal C eht ot snoisnetxe dradnatsnon seriuqer gnimmargorp C deddebme ,yllacirotsiH
+C deddebmE :elcitra niaM
+C deddebmE
+
+]dedeen ecruos retteb[]42[.32C dellac eb erofereht dluow dna 3202 ni no detov eb ot detcepxe si tI .noisiver dradnats egaugnal C rojam )71C retfa( txen eht rof eman lamrofni na si x2C
+x2C :elcitra niaM
+x2C
+
+.L017102 sa denifed si __NOISREV_CDTS__ orcam dradnats ehT .11C ni stcefed ot snoitacifiralc dna ,snoitcerroc lacinhcet ylno ,serutaef egaugnal wen on secudortni tI .egaugnal gnimmargorp C eht rof dradnats tnerruc eht si 71C ,8102:9989 CEI/OSI sa 8102 enuJ ni dehsilbuP
+)noisiver dradnats C( 71C :elcitra niaM
+71C
+
+.elbaliava si troppus 11C taht etacidni ot L211102 sa denifed si __NOISREV_CDTS__ orcam dradnats ehT .++C htiw ytilibitapmoc sevorpmi dna ,lanoitpo yrarbil 99C gnitsixe eht fo snoitrop emos sekam osla tI .snoitcnuf dekcehc-sdnuob dna ,gnidaerht-itlum ,snoitarepo cimota ,troppus edocinU devorpmi ,serutcurts suomynona ,sorcam cireneg epyt gnidulcni ,yrarbil eht dna C ot serutaef wen suoremun sdda dradnats 11C ehT
+
+.snoitatnemelpmi gnitsixe yb detset neeb ton dah taht serutaef wen fo noitpoda eht timil ot senilediug detpoda eettimmoc sdradnats C ehT .80-21-1102 no 1102:9989 CEI/OSI fo noitacilbup laiciffo sti litnu "X1C" dellac yllamrofni ,dradnats C eht fo noisiver rehtona no nageb krow ,7002 nI
+)noisiver dradnats C( 11C :elcitra niaM
+11C
+
+.seman edocinU war rof troppus stseggus dna )134f1000U\ ro 0400u\ .g.e( sretcarahc depacse fo mrof eht ni sreifitnedi edocinU rof troppus seriuqer dradnats 99C eht ,noitidda nI
+
+]etadpu sdeen[]32[.11++C htiw ytilibitapmoc rof deriuqer era taht 99C fo strap esoht dna dradnats 98C eht stnemelpmi ,revewoh ,++C lausiV tfosorciM ni relipmoc C ehT .99C fo serutaef wen eht fo lla ro ynam troppus ]?nehw[won srelipmoc C rehto dna ,oidutS siraloS ,CCG .elbaliava si troppus 99C taht etacidni ot L109991 eulav htiw denifed si __NOISREV_CDTS__ orcam dradnats A .demussa ylticilpmi tni sah regnol on reificeps epyt a skcal taht noitaralced a ,ralucitrap ni ;syaw emos ni retcirts si tub ,09C htiw elbitapmoc drawkcab trap tsom eht rof si 99C
+
+.srelipmoc C lareves ni snoisnetxe sa detnemelpmi neeb ydaerla dah eseht fo ynaM .++C ro LPCB ni sa ,// htiw gninnigeb stnemmoc enil-eno rof troppus dna ,)ytira elbairav fo sorcam( sorcam cidairav rof troppus ,tniop gnitaolf 457 EEEI rof troppus devorpmi ,srebmem yarra elbixelf dna syarra htgnel-elbairav ,)srebmun xelpmoc tneserper ot epyt xelpmoc a dna tni gnol gnol gnidulcni( sepyt atad wen lareves ,snoitcnuf enilni gnidulcni ,serutaef wen lareves decudortni 99C
+
+]22[.adnegirroC lacinhceT yb semit eerht dednema neeb ecnis sah tI ."99C" sa ot derrefer ylnommoc si hcihw ,9991 ni 9991:9989 CEI/OSI fo noitacilbup eht ot gnidael ,s0991 etal eht ni desiver rehtruf saw dradnats C ehT
+99C :elcitra niaM
+99C
+
+]12[.stes retcarahc lanoitanretni rof troppus evisnetxe erom dda ot dna sliated emos tcerroc ot ,dehsilbup saw )59C sa yllamrofni nwonk ,5991:1DMA/9989 CEI/OSI( dradnats C 0991 eht ot 1 tnemdnemA evitamroN ,5991 nI .sraey lareves rof citats ylevitaler deniamer noitacificeps egaugnal C eht ,ssecorp noitazidradnats OSI/ISNA eht retfA
+
+.C dradnatS ni ylno elbaliava serutaef fo relipmoc desab-C R&K a no esu eht tneverp ot snoitces R&K dna dradnatS otni edoc eht tilps ot desu eb nac orcam __CDTS__ eht ,srelipmoc desab-C R&K ro gnimrofnoc-dradnats rehtie yb elbalipmoc eb tsum edoc erehw sesac nI
+
+.ssennaidne etyb dna sepyt atad fo ezis tcaxe eht sa hcus setubirtta cificeps-mroftalp ro -relipmoc no ecnailer a ot ro ,seirarbil IUG sa hcus ,seirarbil dradnats-non fo esu eht ot ,elpmaxe rof ,eud ,relipmoc ralucitrap a htiw ro mroftalp niatrec a no ylno elipmoc yam smargorp ,snoituacerp hcus tuohtiW .stimil ecruoser sti nihtiw ,noitatnemelpmi C gnimrofnoc a htiw mroftalp yna no yltcerroc nur lliw snoitpmussa tnedneped-erawdrah yna tuohtiw dna C dradnatS ni ylno nettirw margorp ynA .ti no desab si edoc C nredom tsom dna ,srelipmoc C tnerruc yb detroppus si 98C
+
+.edoc ecruos gnitsixe htiw ytilibitapmoc rof ,dettimrep eb ot deunitnoc ecafretni R&K eht ,++C ni desu elyts eht edulcni ot detnemgua saw snoitaralced retemarap rof xatnys eht hguohtlA .stnemecnahne rossecorperp dna ,selacol dna stes retcarahc lanoitanretni rof troppus ,sretniop diov ,)++C morf deworrob( sepytotorp noitcnuf sa hcus serutaef lanoitidda lareves dedulcni osla eettimmoc sdradnats ehT .serutaef laiciffonu decudortni yltneuqesbus eht fo ynam gnitaroprocni ,C R&K fo tesrepus a ecudorp ot saw ssecorp noitazidradnats C eht fo smia eht fo enO
+
+.noitacilbup OSI fo raey a nihtiw srucco yllacipyt dradnats lanoitanretni eht ot etadpu na fo noitpoda lanoitaN .41GW/22CS/1CTJ CEI/OSI puorg gnikrow eht yb deniatniam ,dradnats C lanoitanretni eht ot srefed tub ,yltnednepedni dradnats C eht spoleved regnol on ,seidob sdradnats lanoitan rehto ekil ,ISNA
+
+.egaugnal gnimmargorp emas eht ot refer "09C" dna "98C" smret eht ,eroferehT .09C dellac semitemos si hcihw ,0991:9989 CEI/OSI sa )OSI( noitazidradnatS rof noitazinagrO lanoitanretnI eht yb detpoda saw )segnahc gnittamrof htiw( dradnats C ISNA eht ,0991 nI
+
+.98C semitemos ro ,C dradnatS ,C ISNA sa ot derrefer netfo si egaugnal eht fo noisrev sihT ."C egaugnaL gnimmargorP" 9891-951.3X ISNA sa deifitar saw dradnats C eht ,9891 nI .dradnats XISOP 8891 eht rof sisab eht emoceb ot 3001 puorg gnikrow EEEI eht ot ffo dednah saw yrarbil C xinU eht fo noitrop elbatrop-non eht ,revewoh ;noitatnemelpmi xinU eht no dradnats C eht desab 11J3X .C fo noitacificeps dradnats a hsilbatse ot ,11J3X ,eettimmoc a demrof )ISNA( etutitsnI sdradnatS lanoitaN naciremA eht ,3891 nI
+
+.yltnacifingis esaercni ot nageb ytiralupop sti sa ,CP MBI eht gnidulcni ,sretupmocorcim dna ,sretupmocinim ,sretupmoc emarfniam fo yteirav ediw a rof detnemelpmi erew C fo snoisrev ,s0891 dna s0791 etal eht gniruD
+C ISNA :elcitra niaM
+C OSI dna C ISNA
+
+]dedeen noitatic[.noitazidradnats fo ytissecen eht ot del ,noitacificeps R&K eht detnemelpmi ylesicerp srelipmoc xinU eht neve ton taht tcaf eht dna ytiralupop egaugnal eht htiw rehtegot ,yrarbil dradnats a no tnemeerga fo kcal dna snoisnetxe fo rebmun egral ehT
+)3 NEERG enifed# .g.e ,desu erew seulav dexif regetni rof snoitinifed rossecorperp ,ylsuoiverp( sepyt detaremune
+sepyt atad tcurts rof tnemngissa
+)denruter eb dluoc taolf ro regetni ,retniop elgnis a ylno ylsuoiverp( sepyt noinu ro tcurts gninruter snoitcnuf
+)eulav nruter on htiw snoitcnuf ,.e.i( snoitcnuf diov
+
+:dedulcni esehT .srodnev rehto emos dna )]02[CCP ralucitrap ni( T&TA morf srelipmoc yb detroppus ,egaugnal eht ot dedda erew serutaef lareves ,C R&K fo noitacilbup eht gniwollof sraey eht nI
+
+.selif ecruos elpitlum ssorca esu noitcnuf fo ycnetsisnoc rof kcehc dluoc )sgniht rehto gnoma( taht depoleved erew ytilitu tnil s'xinU sa hcus sloot etarapeS .stnemugra fo sepyt ro srebmun tnereffid desu noitcnuf lanretxe na ot sllac elpitlum fi ro ,stnemugra fo rebmun gnorw eht htiw dellac saw noitcnuf lacol a fi egassem gninraw a eussi dluow srelipmoc emos hguohtla ,demrofrep ton erew skcehc epyt retemarap noitcnuf ,stnemugra noitcnuf tuoba noitamrofni yna edulcni ton did snoitaralced noitcnuf R&K ecniS
+
+.sdradnats retal ni deriuqer era tub ,C R&K ni dettimo eb dluoc tuo detnemmoc era hcihw sreificeps epyt tni ehT
+}
+;2tset nruter    
+;)(noitcnuf_rehto = 2tset          
+esle    
+;0 = 2tset          
+)1 > 1tset( fi    
+;)(noitcnuf_emos = 1tset    
+/* .emarf kcats eht nihtiw ot desoppo sa retsiger a ni derots eb yllaedi */                              
+/* dluohs elbairav siht taht relipmoc eht ot setacidni drowyek 'retsiger' ehT */                              
+/* .C fo stnairav retal ni deriuqer eb dluow ti erehw etartsulli ot tsuj tnemmoc a */                              
+/* sa nwohs dna ,ereh deriuqer ton si 'tni' eht eton ,niaga */ ;2tset /* tni */ retsiger    
+;1tset gnol    
+{
+/* C fo noisrev ylrae siht gnisu nehw 'tni' etats ot deen on os ticilpmi si siht tub ,'tni' si epyt nruter eht } stekcarb ylruc { eht ni gniwollof edoc eht fo ydob eht gnidulcni ,noitinifed noitcnuf a si siht */ )(noitcnuf_gnillac /* tni */
+
+/* .stnairav retal ni og dluoc ti erehw wohs ot ereh tuo detnemmoc s'tI  .C fo noisrev ylrae tuoba gniklat er'ew ecnis ereh epyt 'tni' ticilpmi na si erehT  .noitaralced noitcnuf rehtonA */ ;)(noitcnuf_rehto /* tni */
+/* .noitcnuf siht fo epyt nruter dna eman eht wonk nac relipmoc eht os ,noitaralced noitcnuf a si sihT */ ;)(noitcnuf_emos gnol
+
+:elpmaxe roF
+
+.tni epyt nruter ot demuserp erew noitaralced roirp tuohtiw desu snoitcnuf ;noitinifed noitcnuf eht erofeb desu fi deralced eb tsum tni naht rehto sepyt nruter taht snoitcnuf ylno ,C fo snoisrev ylrae nI
+
+.llew sa C dradnatS lagel eb nac edoc C R&K nettirw ylluferac esuaceb dna ,esu ni llits erew srelipmoc redlo ynam ecnis ,derised saw ytilibatrop mumixam nehw sevlesmeht detcirtser sremmargorp C hcihw ot "rotanimoned nommoc tsewol" eht deredisnoc llits saw C R&K sraey ynam rof ,dradnats ISNA 9891 eht fo noitacilbup eht retfa nevE
+.)01íà‚ eb i tel( 01- = i dednetni ylbissop eht fo daetsni )01 yb i tnemerced( 01 -= i sa deterpretni neeb dah hcihw ,01-=i sa hcus stcurtsnoc yb detaerc ytiugibma citnames eht evomer ot )=- ,si taht( =po mrof eht ot degnahc erew )-= sa hcus( po= mrof eht fo srotarepo tnemngissa dnuopmoC
+epyt atad tni dengisnu
+epyt atad tni gnol
+yrarbil O/I dradnatS
+
+:serutaef egaugnal lareves decudortni R&K
+
+.woleb debircsed ,dradnats C ISNA retal eht srevoc ]91[koob eht fo noitide dnoces ehT ]81[.87C sa ot derrefer osla si ti ,8791 ni desaeler saw siht sA ."C R&K" sa ot derrefer ylnommoc si sebircsed ti taht C fo noisrev ehT .egaugnal eht fo noitacificeps lamrofni na sa sraey ynam rof devres ,R&K sa sremmargorp C ot nwonk ,koob sihT ]71[.egaugnaL gnimmargorP C ehT fo noitide tsrif eht dehsilbup eihctiR sinneD dna nahginreK nairB ,8791 nI
+eihctiR sinneD dna nahginreK nairB yb ,noitide tsrif ,egaugnaL gnimmargorP C ehT koob eht fo revoc ehT
+
+C R&K
+
+]51[.smroftalp wen no C fo snoitatnemelpmi lareves rof sisab eht sa devres relipmoC C elbatroP s'nosnhoJ .metsys gnitarepo xinU eht fo ytilibatrop etatilicaf ot egaugnal eht ot segnahc rehtruf edam nosnhoJ .C nehpetS dna eihctiR ,7791 dnuora nI .1691 ni )LOGLA ni nettirw saw hcihw( 0005B shguorruB eht rof )PCM( margorP lortnoC retsaM dna )I/LP ni nettirw saw hcihw( metsys scitluM eht edulcni secnatsni reilraE .ylbmessa naht rehto egaugnal a ni detnemelpmi slenrek metsys gnitarepo tsrif eht fo eno saw xinU
+
+]8[.noitalipmoc lanoitidnoc dna stnemugra htiw sorcam etaroprocni ot ,resieR nhoJ yb neht dna kseL ekiM yb yltsom ,dednetxe saw ti ,taht retfa nooS .sorcam sselretemarap fo enifed# dna edulcni# :stnemecalper gnirts elpmis dna selif dedulcni ylno dedivorp noisrev lanigiro stI .I/LP dna LPCB ni elbaliava smsinahcem noisulcni-elif eht fo ssenlufesu eht fo noitingocer ni osla dna redynS nalA fo gnigru eht ta 3791 dnuora decudortni saw rossecorperp ehT
+
+.sepyt tcurts sa hcus serutaef lufrewop emos deriuqca dah egaugnal C eht ,emit siht yB ]8[.C ni detnemelpmi-er ylevisnetxe saw lenrek xinU eht ,3791 rebmevoN ni desaeler ,xinU 4 noisreV tA
+etirw-er lenrek xinU eht dna serutcurtS
+
+]61[.xinU hcraeseR sa nwonk osla si hcihw ,xinU 2 noisreV ni dedulcni erew ti htiw edam seitilitu emos dna relipmoc C ehT
+
+]8[.C demaner saw egaugnal eht dna ,nettirw saw relipmoc wen A .sretniop emaceb snoisserpxe nihtiw syarrA .dedda osla lla erew snoitcnuf morf denruter eb ot sepyt dna ,sepyt lla fo syarra ,sepyt rehto ot sretniop etareneg ot ytiliba eht ,sretnioP .rahc dna tni fo syarra dah BN :egaugnal BN eht ot dedda erew sepyt rehcir ,2791 ot hguorhT ]51[]41[.tnempoleved egaugnal eht fo noitcerid eht depahs stnemeriuqer sih dna ,lenrek xinU eht etirw ot BN esu ot detrats nospmohT ]41[.B weN siht dellac eH .epyt atad retcarahc a saw noitidda tnacifingis A .11-PDP lufrewop-erom eht fo serutaef eht esilitu ot ,B evorpmi ot detrats eihctiR ,1791 nI
+esaeler C tsrif dna B weN
+
+.ytilibasserdda etyb sa hcus serutaef 11-PDP fo egatnavda ekat ton dluoc dna ,wols oot saw ti esuaceb B ni nettirw yletamitlu erew seitilitu wef ,revewoH ]41[.senihcam wen ot gnitrop etatilicaf ot relipmoc gnippartstoob a dah B ,LPCB ekiL ]41[."xatnys LOGLAMS fo tol a htiw scitnames LPCB" sa B debircsed eH ]8[.B tluser eht dellac nospmohT ]41[.LOGLAMS sa nwonk LOGLA deifilpmis a ot ralimis dna ,ydrow ssel eb ot xatnys eht deifidom nospmohT dna ]31[emit eht ta elbaliava ton saw LPCB fo noitpircsed laiciffo ehT .egaugnal gnimmargorp smetsys LPCB depoleved yltnecer eht fo noisrev nwod-tuc a detaerc eh ,daetsnI .aedi eht pu evag noos tub ,relipmoc nartroF a etirw ot deirt eh ,tsrif tA .mroftalp wen eht rof seitilitu gnipoleved rof egaugnal gnimmargorp a detnaw nospmohT
+)egaugnal gnimmargorp( B :elcitra niaM
+B
+
+]8[.egaugnal ylbmessa ni depoleved osla saw xinU fo noisrev 11-PDP lanigiro ehT .11-PDP a ot metsys gnitarepo eht trop ot dediced yeht ,yllautnevE .seugaelloc morf saedi lareves gnitaroprocni ,nospmohT neK dna eihctiR sinneD yb 7-PDP a no egaugnal ylbmessa ni detnemelpmi yllanigiro ,metsys gnitarepo xinU eht fo tnempoleved eht ot deit ylesolc si C fo nigiro ehT
+ABT	x2C ,32C	*3202
+8102:9989 CEI/OSI	71C	8102
+1102:9989 CEI/OSI	x1C ,11C	1102
+9991:9989 CEI/OSI	99C	9991
+0991:9989 CEI/OSI	C OSI ,C ISNA	0991/9891
+îÄ‚	C R&K	8791
+îÄ‚	htriB	2791
+dradnatS C	eman lamrofnI	raeY
+]11[egaugnal C fo enilemiT
+stnempoleved ylraE
+yrotsiH
+
+.tnereffid yllacidar eb nac taht scitnames dna ,sledom atad ,smetsys epyt gniylrednu htiw C fo xatnys tnemetats dna noisserpxe elbazingocer eht enibmoc ot dnet yeht dna ,C ot xatnys ralimis ylhgih sserpxe osla )noitpecxe citamard a gnieb nohtyP( meht fo tsoM .C morf serutaef cisab rehto dna serutcurts lortnoc rieht fo ynam nward evah segaugnal esehT ]5[.)segaugnal noitpircsed erawdrah( golireVmetsyS dna golireV ,tfiwS ,tsuR ,ybuR ,nohtyP ,PHP ,lreP ,C-evitcejbO ,CPL ,obmiL ,ailuJ ,)srelipsnart gnidulcni( tpircSavaJ ,avaJ ,oG ,D ,llehs C s'xinU ,#C ,++C gnidulcni ,C morf yltceridni ro yltcerid deworrob evah segaugnal retal ynaM
+segaugnal rehto ot snoitaleR
+
+.)rotcelloc egabrag mheoB eht ro metsyS tcejbO biLG eht ,.g.e( seirarbil lanretxe fo esu eht hguorht netfo ,detalume ro detnemelpmi eb nac eseht ,)noitcelloc egabrag dna noitatneiro tcejbo sa hcus( segaugnal rehto ni dnuof serutaef niatrec edulcni ton seod C elihW
+.smetsys deddebme ni esu rof dna smetsys gnitarepo gnitaerc rof elbatius ti sekam hcihw ,mroftalp gniylrednu eht no sdeen drawrofthgiarts ylevitaler sah noitalipmoc retfa edoc detareneg ehT
+.senituor yrarbil ot detageled yltnetsisnoc era snoitcnuf lacitamehtam dna ,noitalupinam gnirts ,O/I sa hcus ytilanoitcnuf xelpmoC
+.setubirtta nretxe dna citats aiv selif rehto ot elbisiv era stcejbo atad dna snoitcnuf hcihw revo lortnoc htiw ,rehtegot deknil dna yletarapes delipmoc eb nac selif :ytiraludom fo mrof cisab a si erehT
+.noitalipmoc lanoitidnoc dna ,noisulcni elif edoc ecruos ,noitinifed orcam smrofrep rossecorperp A
+.senituor yrarbil ot sllac htiw margorp a ot detacolla eb nac yromeM
+.diov epyt nruter depytnu na htiw ,noitcnuf fo esac laiceps a era )seulav gninruter ton senituorbus( serudecorP
+.sretniop ot sesserdda enihcam gnitrevnoc yb elbissop si yromem retupmoc ot ssecca level-woL
+.syarra retcarahc detanimret-llun sa detnemelpmi yllanoitnevnoc era tub ,epyt atad tcnitsid a ton era sgnirtS
+.sregetni htiw elbitrevnocretni yleerf era yehT .drowyek mune eht htiw elbissop era sepyt detaremunE
+.]11[htnom elpmaxe rof ,yllacitcatnys syarra etacidni stekcarb erauqs ,daetsni ;noitinifed ro esu ni drowyek "yarra" on si erehT .srotarepo ni-tliub elgnis gnisu derapmoc ro dengissa eb tonnac yeht :stcejbo ssalc-tsrif ton era syarra ,stcurts ekilnU .citemhtira retniop fo smret ni denifed ,noitaton yradnoces a si gnixedni yarrA
+.dilav si derots rebmem tsal eht ylno ;srebmem gnippalrevo htiw erutcurts a si noinU
+.tinu a sa dengissa dna dessecca eb ot stnemele atad detaler wolla )tcurts( sepyt atad etagergga suoenegoreteH
+.elbissop era sepyt dnuopmoc dna )fedepyt( denifed-resU
+.elbissop era snoisrevnoc ticilpmi tub ,epyt a sah atad lla ;decrofne ylkaew tub ,citats si gnipyt ataD
+.detroppus si noisrucer os ,flesti llac yam noitcnuf A
+.epocs htiw ,noitcnuf a nihtiw denifed eb yam selbairaV
+.snoitcnuf rehto fo epocs lacixel eht nihtiw denifed eb ton yam snoitcnuF
+.msihpromylop emit-nur coh da timrep sretniop atad dna noitcnuF
+.dedeen ton nehw ,derongi eb nac seulav nruter noitcnuF
+:snoitcnuF
+.tnemetats elgnis a ni demrofrep eb yam tnemngissa eno naht eroM
+.cte ,||,&,++,=+,+ :srotarepo cigol dna ,esiwtib ,citemhtira fo rebmun egral a sah tI
+.ligis fo dnik yna yb sdrowyek morf dehsiugnitsid ton era seman denifed-resU .hctiws dna ,elihw ,elihw/od ,rof ,esle/fi :sevitimirp wolf lortnoc fo tes lluf a gnidulcni ,sdrowyek fo rebmun dexif ,llams a sah egaugnal ehT
+
+:scitsiretcarahc gniwollof eht stibihxe osla egaugnal C ehT
+
+.stnemetats fo skcolb gnipuorg rof desu era secarb ylruc dna stnemetats setarapes nolocimes ehT .edoc mrof-eerf si txet ecruos margorp C
+
+.decnerefer gnieb gniht eht ot sretniop gnissap ylticilpxe yb C ni detalumis si ecnerefer-yb-ssaP .yarra eht ni meti tsrif eht fo sserdda eht .e.i ,sretniop sa dessap era syarra hguohtla ,eulav yb dessap era sretemarap noitcnuF .)gnimmargorp lanoitcnuf fo esnes eht ni ton hguoht ,"snoitcnuf" dellac osla( senituorbus nihtiw deniatnoc si edoc elbatucexe lla ,C nI .metsys epyt citats a sah tI .noitidart LOGLA eht ni egaugnal larudecorp ,evitarepmi na si C
+nospmohT neK htiw ,egaugnal gnimmargorp C eht fo rotnevni eht ,)thgir( eihctiR sinneD
+
+weivrevO
+
+]21[.segaugnal gnimmargorp fo ytiralupop eht fo erusaem a ,xedni EBOIT eht ni segaugnal owt pot eht gnoma deknar yltnetsisnoc sah C ,0002 ecniS
+
+]11[.edoc ecruos sti ot segnahc wef htiw smetsys gnitarepo dna smroftalp retupmoc fo yteirav ediw a rof delipmoc eb nac dnim ni ytilibatrop htiw nettirw margorp C tnailpmoc-sdradnats A .gnimmargorp mroftalp-ssorc egaruocne ot dengised saw egaugnal eht ,seitilibapac level-wol sti etipseD .troppus emitnur laminim htiw lla ,snoitcurtsni enihcam ot yltneiciffe pam taht stcurtsnoc egaugnal dna yromem ot ssecca level-wol edivorp ot delipmoc eb ot dengised saw tI .metsys epyt citats a htiw ,noisrucer dna epocs elbairav lacixel ,gnimmargorp derutcurts gnitroppus ,egaugnal larudecorp evitarepmi na si C
+
+.)OSI( noitazidradnatS rof noitazinagrO lanoitanretnI eht yb dna )C ISNA( 9891 ecnis ISNA yb dezidradnats neeb sah C .smetsys gnitarepo dna serutcetihcra retupmoc nredom lla yllacitcarp rof elbaliava srelipmoc C htiw ]01[]9[,segaugnal gnimmargorp desu ylediw tsom eht fo eno emoceb sah tI .ytiralupop deniag yllaudarg C ,s0891 eht gniruD ]8[.metsys gnitarepo xinU eht fo lenrek eht gnitnemelpmi-er ot deilppa saw tI .xinU no gninnur seitilitu tcurtsnoc ot 3791 dna 2791 neewteb eihctiR yb sbaL lleB ta depoleved yllanigiro saw C ,B egaugnal gnimmargorp eht ot rosseccus A
+
+.smetsys deddebme dna srellortnocorcim tsellams eht ot sretupmocrepus tsegral eht morf egnar taht serutcetihcra retupmoc no desu ylnommoc si C .erawtfos noitacilppa rof ]7[ylgnisaerced hguoht ,skcats locotorp ,srevird ecived ,smetsys gnitarepo ni esu gnitsal dnuof sah tI .sUPC detegrat eht fo seitilibapac eht tcelfer ylnaelc serutaef s'C ,ngised yB .laitneulfni dna desu ylediw yrev sniamer dna ,eihctiR sinneD yb s0791 eht ni detaerc saw tI .egaugnal gnimmargorp retupmoc esoprup-lareneg a si ]6[)c rettel eht ekil ìÄ‚ /êÀisàÀ/ decnuonorp( C
+skoobikiW ta gnimmargorP C 
+giZ ,miN ]5[,)LDH( golireV ,alaV ,7deeS ,tsuR ,nohtyP ,gnissecorP ,ekiP ,PHP ,lreP ,CPL ,obmiL ,ailuJ ,++SJ ,tpircSavaJ ,avaJ ,oG ,D ,C-evitcejbO ,#C ,--C ,++C ,hsc ,KWA ,LPMA :suoremuN
+decneulfnI
+NARTROF ,I/LP ]4[,86 LOGLA ,)LPC ,LPCB( B
+yb decneulfnI
+*C ,kliC ,C-tilpS ,C lellaraP deifinU ,enolcyC
+stcelaiD
+C moctaW ,++C lausiV tfosorciM ,redliuB++C ,C letnI ,gnalC ,CCG ,ccp
+snoitatnemelpmi rojaM
+/41gw/22cs/1ctj/gro.dts-nepo.www
+lmth.82547/dradnats/gro.osi.www	etisbeW
+h. ,c.	snoisnetxe emaneliF
+mroftalp-ssorC	SO
+lanimon ,tsefinam ,kaew ,citatS	enilpicsid gnipyT
+]3[oga syad 55 ;3202 ,42 yraunaJ / )8803N( 32C
+	esaeler weiverP
+oga sraey 4 ;8102 enuJ / 71C
+	esaeler elbatS
+]2[oga sraey 15 ;2791	deraeppa tsriF
+)C OSI( )41 puorG gnikroW( 41 GW / )22 eettimmocbuS( 22 CS / )1 eettimmoC lacinhceT tnioJ( 1 CTJ CEI/OSI ;)C ISNA( 11J3X ISNA	repoleveD
+eihctiR sinneD	yb dengiseD
+derutcurts ,)larudecorp( evitarepmi :mgidarap-itluM	mgidaraP
+]1[eihctiR sinneD rengised lanigiro s'C yb derohtua-oc ,egaugnaL gnimmargorP C ehT fo cihparg revoC
+"egaugnaL gnimmargorP C ehT" syas txeT
+C
+.#C ro ++C htiw desufnoc eb ot toN
+.egaugnaL gnimmargorP C ehT ees ,koob eht roF .ereh stcerider "egaugnal gnimmargorp C"
+aidepolcycne eerf eht ,aidepikiW morF
+yrotsih weiV
+tidE
+daeR
+klaT
+elcitrA
+
+)egaugnal gnimmargorp( C
