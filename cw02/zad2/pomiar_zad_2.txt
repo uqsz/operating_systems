@@ -10,3 +10,6 @@ executed in 0.0000s with 1024 buffer size
 executed in 0.1295s with 1 buffer size
 executed in 0.0007s with 1024 buffer size
  
+executed in 0.1209s with 1 buffer size
+executed in 0.0014s with 1024 buffer size
+ 
