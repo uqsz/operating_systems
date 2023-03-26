@@ -18,3 +18,8 @@ Files tmp1.txt and out.txt are identical
 executed in 0.2442s with SYS library
 Files tmp2.txt and out.txt are identical
  
+executed in 0.0017s with C library
+Files tmp1.txt and out.txt are identical
+executed in 0.1832s with SYS library
+Files tmp2.txt and out.txt are identical
+ 
