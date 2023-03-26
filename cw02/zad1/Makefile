@@ -41,4 +41,4 @@ test: all
 	make clean
 
 clean:
-	rm -rf *.exe
+	rm -rf $(EXIT_TARGET)_1 $(EXIT_TARGET)_2
