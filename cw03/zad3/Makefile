@@ -13,7 +13,7 @@ exec:
 	$(CC) $(CFLAGS) $(EXEC_SOURCES) -o $(EXIT_TARGET)
 
 test: exec
-	./$(EXIT_TARGET) ../.. \#include
+	./$(EXIT_TARGET) ../../.. \#include
 
 clean:
 	rm -rf $(EXIT_TARGET)

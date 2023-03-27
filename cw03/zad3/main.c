@@ -7,6 +7,7 @@
 #include <dirent.h>
 #include <errno.h>
 #include <limits.h>
+#include <sys/wait.h>
 
 void process_directory(char *path, char *search_str);
 
@@ -75,4 +76,5 @@ void process_directory(char *path, char *search_str) {
         perror("closedir");
         exit(EXIT_FAILURE);
     }
+    while (wait(NULL)>0);
 }
