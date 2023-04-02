@@ -1,0 +1,25 @@
+:::SA_SIGINFO:::
+
+Parent PID: 142100
+Child PID: 142101
+
+Received signal ID: 10
+PID of sending process: 142101
+Real user ID of sending process: 1000
+Signal code: 0
+Exit value: 0
+
+
+Received signal ID: 10
+PID of sending process: 142100
+Real user ID of sending process: 1000
+Signal code: -6
+Exit value: 0
+
+
+Received signal ID: 14
+PID of sending process: 142100
+Real user ID of sending process: 1000
+Signal code: -6
+Exit value: 0
+
