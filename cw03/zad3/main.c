@@ -67,7 +67,6 @@ void process_directory(char *path, char *search_str) {
                     printf("%s %d\n", full_path, getpid());
                 }
             }
-
             fclose(file_stream);
         }
     }

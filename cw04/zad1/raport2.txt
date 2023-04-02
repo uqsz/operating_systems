@@ -1,0 +1,9 @@
+w pliku results.txt zamieszczone są wyniki testów
+podzielone są na testy dotyczące forka i execa
+
+wyniki dziedziczenia:    [FORK] [EXEC]
+
+dyspozycja dla sygnałów ->  tak tak
+instalacja handlera ->      tak xxx
+maski sygnałow ->           tak tak
+sygnały czekające ->        nie tak
