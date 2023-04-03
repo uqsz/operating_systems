@@ -10,6 +10,7 @@ void sig_handler_info(int signo, siginfo_t *info, void *context) {
 
 
 int main() {
+    printf(":::SA_SIGINFO:::\n");
     printf("Parent PID: %d\n",getpid());
     struct sigaction sa;
     sa.sa_flags = SA_SIGINFO;

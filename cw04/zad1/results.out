@@ -1,40 +1,40 @@
 :::FORK TEST:::
 
 >>>Executing: ignore in ./main_fork
-Raised SIGUSR1 in 47802.
-Raised SIGUSR1 in 47804.
+Raised SIGUSR1 in 4679.
+Raised SIGUSR1 in 4680.
 
 >>>Executing: handler in ./main_fork
-Raised SIGUSR1 in 47808.
-Received SIGUSR1 in 47808.
-Raised SIGUSR1 in 47810.
-Received SIGUSR1 in 47810.
+Raised SIGUSR1 in 4683.
+Received SIGUSR1 in 4683.
+Raised SIGUSR1 in 4684.
+Received SIGUSR1 in 4684.
 
 >>>Executing: mask in ./main_fork
-Raised SIGUSR1 in 47815.
-Raised SIGUSR1 in 47816.
+Raised SIGUSR1 in 4687.
+Raised SIGUSR1 in 4688.
 
 >>>Executing: pending in ./main_fork
-Raised SIGUSR1 in 47821.
-Signal SIGUSR1 is pending in 47821
-Signal SIGUSR1 is not pending in 47822
+Raised SIGUSR1 in 4691.
+Signal SIGUSR1 is pending in 4691
+Signal SIGUSR1 is not pending in 4692
 
 
 
 :::EXEC TEST:::
 
 >>>Executing: ignore in ./main_exec
-Raised SIGUSR1 in 47855.
+Raised SIGUSR1 in 4707.
 >>>Executing: ignore in ./main_simple
-Raised SIGUSR1 in 47855.
+Raised SIGUSR1 in 4707.
 
 >>>Executing: mask in ./main_exec
-Raised SIGUSR1 in 47858.
+Raised SIGUSR1 in 4710.
 >>>Executing: mask in ./main_simple
-Raised SIGUSR1 in 47858.
+Raised SIGUSR1 in 4710.
 
 >>>Executing: pending in ./main_exec
-Raised SIGUSR1 in 47861.
-Signal SIGUSR1 is pending in 47861
+Raised SIGUSR1 in 4713.
+Signal SIGUSR1 is pending in 4713
 >>>Executing: pending in ./main_simple
-Signal SIGUSR1 is pending in 47861
+Signal SIGUSR1 is pending in 4713

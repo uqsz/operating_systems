@@ -58,7 +58,6 @@ int main(int argc, char** argv) {
     printf(">>>Executing: %s in %s\n",argv[1],argv[0]);
     #ifndef EXEC 
         #ifndef FORK
-            fflush(stdout);
             if (to_do==PENDING) check();
             else raise_sig();
             return 0;
@@ -99,5 +98,6 @@ int main(int argc, char** argv) {
     #ifdef EXEC
         execl("./main_simple","./main_simple", argv[1], NULL);
     #endif
+    return 0;
 
 }

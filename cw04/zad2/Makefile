@@ -19,8 +19,7 @@ exec_nodefer:
 
 test: all
 	touch results.out
-	echo ":::SA_SIGINFO:::\n" > results.out
-	./$(EXIT_TARGET)_siginfo >> results.out
+	./$(EXIT_TARGET)_siginfo > results.out
 	make clean
 
 clean:

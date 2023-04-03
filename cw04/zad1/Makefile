@@ -7,7 +7,6 @@ EXIT_TARGET1=main_fork
 EXIT_TARGET2=main_exec
 EXIT_TARGET3=main_simple
 
-TEST_OPTIONS= ignore handler mask pending
 
 all: exec_fork exec_exec exec_clear
 
