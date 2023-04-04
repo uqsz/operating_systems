@@ -39,7 +39,7 @@ int main(){
 
     while(mode!=5){
         printf("--> ");
-        fgets(input, sizeof(input), stdin);     // odczytanie komendy od użytkownika
+        fgets(input, sizeof(input), stdin);
         sscanf(input, "%s", option);
         mode=atoi(option);
         value.sival_int=mode;

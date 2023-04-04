@@ -14,7 +14,7 @@ void success(int n){
 
 void show_numbers(){
     for (int i=1;i<101;i++){
-        printf("%d",i);
+        printf("%d ",i);
         if (i%10==0) printf("\n");
     }
     printf("\n");
