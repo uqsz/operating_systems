@@ -13,4 +13,4 @@ exec:
 
 
 clean:
-	rm main*
+	rm main* temp.txt
