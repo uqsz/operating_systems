@@ -1,49 +1,40 @@
+// C program to implement one side of FIFO
+// This side reads first, then reads
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
-#include <sys/types.h>
+#include <fcntl.h>
 #include <sys/stat.h>
-#include <dirent.h>
-#include <errno.h>
-#include <limits.h>
-#include <sys/wait.h>
+#include <sys/types.h>
+#include <unistd.h>
 
-int x=0;
-
-void handle_sigusr1(int sig)
+int main()
 {
-    if (x==0){
-    printf("RTime is up!\n");
-    exit(0);
-    }
-}
+    int fd1;
 
-int main() {
-    pid_t pid = fork();
-    if (pid == 0) {
-        // Proces potomny
-        sleep(3);
-        //kill(getppid(),SIGUSR1);
-    } else if (pid > 0) {
-        signal(SIGUSR1,handle_sigusr1);
-        // Proces rodzicielski
-        int x;
-        printf("Ile to 3*5: \n");
-        scanf("%d",&x);
-        alarm(3);
-        if (x==15){
-            printf("Right\n");
-        }
-        else{
-            printf("Wrong!\n");
-        }
-        wait(NULL);
-    } else {
-        printf("Błąd podczas tworzenia procesu potomnego.\n");
-        exit(1);
-    }
-    pause();
+    // FIFO file path
+    char * myfifo = "tmp/myfifo";
 
+    // Creating the named file(FIFO)
+    // mkfifo(<pathname>,<permission>)
+    mkfifo(myfifo, 0666);
+
+    char str1[80], str2[80];
+    while (1)
+    {
+        // First open in read only and read
+        fd1 = open(myfifo,O_RDONLY);
+        read(fd1, str1, 80);
+
+        // Print the read string and close
+        printf("User1: %s\n", str1);
+        close(fd1);
+
+        // Now open in write mode and write
+        // string taken from user.
+        fd1 = open(myfifo,O_WRONLY);
+        fgets(str2, 80, stdin);
+        write(fd1, str2, strlen(str2)+1);
+        close(fd1);
+    }
     return 0;
 }

@@ -13,25 +13,27 @@ double f(double x){
 double calc_integral(double a, double b, double dx){
     double sum=0;
     double x;
-    for (x=a; x<=b; x+=dx){
+    for (x=a; x<b; x+=dx){
         sum+=f(x)*dx;
     }
     return sum;
 }
 
-int main(){
-    struct timespec startTime, endTime;
-    double executionTime;
+int main(int argc, char *argv[]) {
+    if (argc != 3) {
+        printf("Użycie: %s <szerokość_prostokąta> <liczba_procesów_potomnych>\n", argv[0]);
+        return 1;
+    }
+    double dx = atof(argv[1]); // Szerokość prostokąta - dokładność obliczeń
+    int n = atoi(argv[2]); // Liczba procesów potomnych
 
-    int n=100;
-    int a=0;
-    int b=1;
-    double dif=b-a;
-    double dx=0.000001;
-    double k=dif/n;
+    double a=0,b=1;
+    double k=(b-a)/n;
     double total_sum=0;
 
-    clock_gettime(CLOCK_REALTIME, &startTime);
+    struct timespec start_real, end_real;
+
+    clock_gettime(CLOCK_REALTIME, &start_real);
 
     int pipes[n][2];
     for (int i=0; i<n; i++){
@@ -48,6 +50,7 @@ int main(){
             exit(0);
         }
     }
+
     for (int i=0; i<n; i++){
         close(pipes[i][1]);
         double local_sum;
@@ -55,17 +58,21 @@ int main(){
         close(pipes[i][0]);
         total_sum+=local_sum;
     }
-    printf("%.9f\n",total_sum);
-    clock_gettime(CLOCK_REALTIME, &endTime);
 
-    executionTime=(endTime.tv_sec-startTime.tv_sec) + (endTime.tv_nsec-startTime.tv_nsec)/1e9;
-    printf("%.9f\n", executionTime);
+    while(wait(NULL)>0);
+    printf("::TEST::\ndx: %s  n: %d\n",argv[1],n);
 
-    clock_gettime(CLOCK_REALTIME, &startTime);
+    clock_gettime(CLOCK_REALTIME, &end_real);
+    double elapsed_real = (end_real.tv_sec - start_real.tv_sec) * 1e3 + (end_real.tv_nsec - start_real.tv_nsec)/1e6;
+
+    printf("MUL_PROCESS: %.9f %.2f ms\n",total_sum, elapsed_real);
+
+    clock_gettime(CLOCK_REALTIME, &start_real);
     total_sum=calc_integral(0,1,dx);
-    clock_gettime(CLOCK_REALTIME, &endTime);
+    clock_gettime(CLOCK_REALTIME, &end_real);
 
-    executionTime=(endTime.tv_sec-startTime.tv_sec) + (endTime.tv_nsec-startTime.tv_nsec)/1e9;
-    printf("%.9f\n",total_sum);
-    printf("%.9f\n", executionTime);
+    elapsed_real = (end_real.tv_sec - start_real.tv_sec) * 1e3 + (end_real.tv_nsec - start_real.tv_nsec)/1e6;
+
+    printf("ONE_PROCESS: %.9f %.2f ms\n\n",total_sum, elapsed_real);
+    fflush(stdout);
 }

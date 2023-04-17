@@ -1,14 +1,13 @@
 CC=gcc
 CFLAGS= -Wall -Wpedantic -Werror
-EXEC_S=main.c
-EXEC_E=main1
+EXEC_S=main
+EXEC_E=main
 
 all: exec
 
 exec:
-	$(CC) $(EXEC_S) -o $(EXEC_E)
-	./$(EXEC_E)
-	make clean
+	$(CC) $(EXEC_S).c -o $(EXEC_E)
+	$(CC) $(EXEC_S)1.c -o $(EXEC_E)1
 
 clean:
 	rm $(EXEC_E)

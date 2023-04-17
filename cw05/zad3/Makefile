@@ -1,12 +1,16 @@
 CC=gcc
 CFLAGS= -Wall -Wpedantic -Werror
 EXEC_S1=main.c
+EXEC_S2=calc.c
 EXIT_TARGET1=main
+EXIT_TARGET2=calc
+
 
 all: exec
 
 exec:
 	$(CC) $(CFLAGS) $(EXEC_S1) -o $(EXIT_TARGET1)
+	$(CC) $(CFLAGS) $(EXEC_S2) -o $(EXIT_TARGET2)
 
 test: exec
 	touch results.txt
@@ -18,4 +22,4 @@ test: exec
 	make clean
 
 clean:
-	rm main
+	rm main calc
