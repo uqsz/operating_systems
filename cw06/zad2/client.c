@@ -14,7 +14,7 @@
 #include <stdbool.h>
 
 #define MAX_TEXT 1024
-#define MAX_DATE 256
+#define MAX_DATE 32
 
 char buffer[MAX_TEXT]="";
 char input[MAX_TEXT]=""; 
@@ -47,21 +47,24 @@ struct msg{
     int id_one;
 };
 
-void get_time(struct msg send_msg) {
-
+void get_time(struct msg *send_msg) {
+    time_t current_time = time(NULL);
+    struct tm *time_info = localtime(&current_time);
+    strftime(send_msg->date, MAX_DATE, "[%d.%m.%Y][%H:%M:%S]", time_info);
 }
 
 void list_server(struct msg send_msg){
     send_msg.to_do=LIST;
+    get_time(&send_msg);
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
     msgrcv(msgid_local, &send_msg, sizeof(send_msg), LIST,0);
     printf("Active users: %s\n",send_msg.text);
-
 }
 
 void all_server(struct msg send_msg, char* mess){
     send_msg.to_do=ALL;
-    sprintf(buffer, "%d->ALL: %s", id_local, mess);
+    get_time(&send_msg);
+    sprintf(buffer, "%s[%d->ALL]: %s",send_msg.date, id_local, mess);
     strcpy(send_msg.text,buffer);
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
 
@@ -72,8 +75,9 @@ void all_server(struct msg send_msg, char* mess){
 void one_server(struct msg send_msg, int client_id, char* mess){
     send_msg.to_do=ONE;
     send_msg.id_one=client_id;
+    get_time(&send_msg);
 
-    sprintf(buffer, "%d->%d: %s", id_local, client_id, mess);
+    sprintf(buffer, "%s[%d->%d]: %s",send_msg.date, id_local, client_id, mess);
     strcpy(send_msg.text, buffer);
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
 
@@ -100,6 +104,7 @@ void stop_server(){
     struct msg send_msg;
     send_msg.id=id_local;
     send_msg.to_do=STOP;
+    get_time(&send_msg);
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
     printf("\n");
     check();
@@ -126,6 +131,7 @@ int main(){
 
     struct msg send_msg;
     send_msg.to_do=INIT;
+    get_time(&send_msg);
     sprintf(buffer, "%d", msgid_local);
     strcpy(send_msg.text,buffer);
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
@@ -160,7 +166,7 @@ int main(){
                 check();
                 break;
             case INVALID:
-                printf("Invalid command!");
+                printf("Invalid command! Try again.\n");
                 break;
             default:
                 break;
