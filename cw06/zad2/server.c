@@ -16,7 +16,7 @@
 #define MAX_TEXT 1024
 
 int size=0;
-char buffer[MAX_TEXT];
+char buffer[MAX_TEXT]="";
 int msgid_server;
 
 typedef enum{

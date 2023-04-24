@@ -13,11 +13,10 @@
 #include <sys/wait.h>
 #include <stdbool.h>
 
-#define MAX_TEXT 1024
+#define MAX_TEXT 2048
 #define MAX_DATE 128
 
-
-char buffer[MAX_TEXT];
+char buffer[MAX_TEXT]="";
 char input[MAX_TEXT]=""; 
 char command[MAX_TEXT]="";
 char value1[MAX_TEXT]="";
@@ -55,7 +54,7 @@ void list_server(struct msg send_msg){
     send_msg.to_do=LIST;
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
     msgrcv(msgid_local, &send_msg, sizeof(send_msg), LIST,0);
-    printf("%s",send_msg.text);
+    printf("Active users: %s\n",send_msg.text);
 
 }
 
@@ -101,6 +100,7 @@ void stop_server(){
     send_msg.id=id_local;
     send_msg.to_do=STOP;
     msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
+    printf("\n");
     check();
     if (server_active){
         msgrcv(msgid_local, &send_msg,sizeof(send_msg), STOP,0);
