@@ -13,8 +13,8 @@
 #include <sys/wait.h>
 #include <stdbool.h>
 
-#define MAX_TEXT 2048
-#define MAX_DATE 128
+#define MAX_TEXT 1024
+#define MAX_DATE 256
 
 char buffer[MAX_TEXT]="";
 char input[MAX_TEXT]=""; 
@@ -28,12 +28,12 @@ int msgid_local;
 bool server_active;
 
 typedef enum{
-    INIT=1,
+    STOP=1,
     LIST=2,
     ALL=3,
     ONE=4,
     CHECK=5,
-    STOP=6,
+    INIT=6,
     STOP_ALL=7,
     INVALID=8,
     INFORM=9
@@ -42,6 +42,7 @@ typedef enum{
 struct msg{
     long int to_do;
     char text[MAX_TEXT];
+    char date[MAX_DATE];
     int id;
     int id_one;
 };

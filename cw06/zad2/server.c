@@ -14,26 +14,28 @@
 #include <stdbool.h>
 
 #define MAX_TEXT 1024
+#define MAX_DATE 256
 
 int size=0;
 char buffer[MAX_TEXT]="";
 int msgid_server;
 
 typedef enum{
-    INIT=1,
+    STOP=1,
     LIST=2,
     ALL=3,
     ONE=4,
     CHECK=5,
-    STOP=6,
+    INIT=6,
     STOP_ALL=7,
     INVALID=8,
-    INFORM=9,
+    INFORM=9
 } ACTION;
 
 struct msg{
     long int to_do;
     char text[MAX_TEXT];
+    char date[MAX_DATE];
     int id;
     int id_one;
 };
