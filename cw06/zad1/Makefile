@@ -7,6 +7,9 @@ EXEC_E=main
 all: exec
 
 exec:
+	rm console_logs.txt
+	touch console_logs.txt
+	echo '' > console_logs.txt
 	$(CC) $(CFLAGS) $(EXEC_S1) -o server
 	$(CC) $(CFLAGS) $(EXEC_S2) -o client
 

@@ -125,8 +125,12 @@ void stop_all(){
 
 
 int main(){
+    FILE *fp = fopen("console_logs.txt", "a");
     msgid_server=msgget((key_t) 12345, 0666|IPC_CREAT);
-    printf("Your server is on! Your msgid is: %d\n",msgid_server);
+    sprintf(buffer,"\nYour server is on! Your msgid is: %d\n",msgid_server);
+    printf("%s",buffer);
+    fprintf(fp, "%s", buffer);
+    fflush(fp);
     fflush(stdout);
     struct msg curr_msg;
     signal(SIGINT,stop_all);
@@ -136,26 +140,29 @@ int main(){
         switch (curr_msg.to_do){
         case INIT:
             add_client(curr_msg);
-            printf("%s ID: %d -> INIT | KEY: %d\n",curr_msg.date,size-1,clients[size-1].msgid_usr);
+            sprintf(buffer, "%s ID: %d -> INIT | KEY: %d\n",curr_msg.date,size-1,clients[size-1].msgid_usr);
             break;
         case LIST:
             list_client(curr_msg);
-            printf("%s ID: %d -> LIST\n",curr_msg.date,curr_msg.id);
+            sprintf(buffer,"%s ID: %d -> LIST\n",curr_msg.date,curr_msg.id);
             break;
         case ALL:
             all_client(curr_msg);
-            printf("%s ID: %d -> 2ALL\n",curr_msg.date,curr_msg.id);
+            sprintf(buffer,"%s ID: %d -> 2ALL\n",curr_msg.date,curr_msg.id);
             break;
         case ONE:
             one_client(curr_msg);
-            printf("%s ID: %d -> 2ONE\n",curr_msg.date,curr_msg.id);
+            sprintf(buffer,"%s ID: %d -> 2ONE\n",curr_msg.date,curr_msg.id);
             break;
         case STOP:
             stop_client(curr_msg);
-            printf("%s ID: %d -> STOP\n",curr_msg.date,curr_msg.id);
+            sprintf(buffer,"%s ID: %d -> STOP\n",curr_msg.date,curr_msg.id);
             break;
         default:
             break;
         }
+        printf("%s",buffer);
+        fprintf(fp, "%s", buffer);
+        fflush(fp);
     }
 }
