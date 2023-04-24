@@ -1,12 +1,15 @@
 CC=gcc
 CFLAGS= -Wall -Wpedantic -Werror
-EXEC_S=main
+EXEC_S1=server.c
+EXEC_S2=client.c
 EXEC_E=main
 
 all: exec
 
 exec:
-	$(CC) $(EXEC_S).c -o $(EXEC_E)
+	$(CC) $(CFLAGS) $(EXEC_S1) -o server
+	$(CC) $(CFLAGS) $(EXEC_S2) -o client
+
 
 clean:
-	rm $(EXEC_E)
+	rm server client 

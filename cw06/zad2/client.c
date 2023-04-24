@@ -14,15 +14,19 @@
 #include <stdbool.h>
 
 #define MAX_TEXT 1024
+#define MAX_DATE 128
 
+
+char buffer[MAX_TEXT];
 char input[MAX_TEXT]=""; 
 char command[MAX_TEXT]="";
 char value1[MAX_TEXT]="";
 char value2[MAX_TEXT]=""; 
-char buffer[MAX_TEXT]="";
+
+int id_local;
 int msgid_server;
 int msgid_local;
-char time_buff[20];
+bool server_active;
 
 typedef enum{
     INIT=1,
@@ -32,97 +36,78 @@ typedef enum{
     CHECK=5,
     STOP=6,
     STOP_ALL=7,
-    INVALID=8
+    INVALID=8,
+    INFORM=9
 } ACTION;
 
 struct msg{
-    ACTION to_do;
+    long int to_do;
     char text[MAX_TEXT];
     int id;
     int id_one;
 };
 
-void get_time() {
-    time_t t = time(NULL);
-    struct tm *tm = localtime(&t);
-    strftime(time_buff, sizeof(time_buff), "%d.%m.%Y", tm);
+void get_time(struct msg send_msg) {
+
 }
 
-
-void list_server(int id_local){
-    struct msg send_msg;
+void list_server(struct msg send_msg){
     send_msg.to_do=LIST;
-    send_msg.id=id_local;
-    msgsnd(msgid_server, &send_msg, MAX_TEXT, 0);
+    msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
+    msgrcv(msgid_local, &send_msg, sizeof(send_msg), LIST,0);
+    printf("%s",send_msg.text);
 
-    struct msg re_msg;
-    msgrcv(msgid_local, &re_msg, MAX_TEXT, 0,0);
-    printf("Active clients IDs: %s\n",re_msg.text);
 }
 
-void all_server(int id_local,char* mess){
-    struct msg send_msg;
+void all_server(struct msg send_msg, char* mess){
     send_msg.to_do=ALL;
-    send_msg.id=id_local;
-    strcpy(buffer,"");
-
-    get_time();
-
-    sprintf(buffer, "%d@%s@%s", id_local, time_buff, mess);
+    sprintf(buffer, "%d->ALL: %s", id_local, mess);
     strcpy(send_msg.text,buffer);
-    msgsnd(msgid_server, &send_msg, MAX_TEXT, 0);
+    msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
 
-    struct msg re_msg;
-    msgrcv(msgid_local, &re_msg, MAX_TEXT, 0,0);
-    printf("%s\n",re_msg.text);
+    msgrcv(msgid_local, &send_msg, sizeof(send_msg), ALL,0);
+    printf("%s\n",send_msg.text);
 }
 
-void one_server(int id_local, char* mess, char* client_id){
-    struct msg send_msg;
+void one_server(struct msg send_msg, int client_id, char* mess){
     send_msg.to_do=ONE;
-    send_msg.id=atoi(client_id);
-    send_msg.id_one=id_local;
+    send_msg.id_one=client_id;
 
-
-    strcpy(buffer,"");
-    get_time();
-    sprintf(buffer, "%d@%s@%s@%s", id_local, client_id, time_buff, mess);
+    sprintf(buffer, "%d->%d: %s", id_local, client_id, mess);
     strcpy(send_msg.text, buffer);
-    msgsnd(msgid_server, &send_msg, MAX_TEXT, 0);
+    msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
 
-    struct msg re_msg;
-    msgrcv(msgid_local, &re_msg, MAX_TEXT, 0,0);
-    printf("%s\n",re_msg.text);
+    msgrcv(msgid_local, &send_msg, sizeof(send_msg), ONE,0);
+    printf("%s\n",send_msg.text);
+
 }
 
-void stop_server(int id_local){
-    struct msg send_msg;
-    send_msg.to_do=STOP;
-    send_msg.id=id_local;
-    strcpy(buffer,"");
-
-    sprintf(buffer, "%d", id_local);
-    strcpy(send_msg.text,buffer);
-    msgsnd(msgid_server, &send_msg, MAX_TEXT, 0);
-
-    struct msg re_msg;
-    msgrcv(msgid_local, &re_msg, MAX_TEXT, 0,0);
-    printf("%s\n",re_msg.text);
-    msgctl(msgid_local,IPC_RMID,0);
-
-    exit(EXIT_SUCCESS);
-}
-
-void check(){
+int check(){
     struct msqid_ds buf;
     msgctl(msgid_local, IPC_STAT, &buf);
     int cnt=buf.msg_qnum;
     printf("You've got %d messages!\n",cnt);
+    struct msg re_msg;
     for (int i=0; i<cnt; i++){
-        struct msg re_msg;
-        msgrcv(msgid_local, &re_msg, MAX_TEXT, 0,0);
+        msgrcv(msgid_local, &re_msg, sizeof(re_msg), 0,0);
+        if(re_msg.to_do==STOP_ALL) server_active=false;
         printf("%s\n",re_msg.text);
     }
+    return 0;
+}
+
+void stop_server(){
+    struct msg send_msg;
+    send_msg.id=id_local;
+    send_msg.to_do=STOP;
+    msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
+    check();
+    if (server_active){
+        msgrcv(msgid_local, &send_msg,sizeof(send_msg), STOP,0);
+        printf("%s\n",send_msg.text);
+    }
+    msgctl(msgid_local,IPC_RMID,0);
+    exit(EXIT_SUCCESS);
 }
 
 ACTION convert(const char* command){
@@ -135,24 +120,20 @@ ACTION convert(const char* command){
 }
 
 int main(){
-    // otworz kolejke serwera
     msgid_server=msgget((key_t) 12345, 0666|IPC_CREAT);
-
-    // otworz kolejke lokalna
     msgid_local=msgget(ftok(".", rand() % 256 + getpid()), 0666|IPC_CREAT);
 
-    // wyslanie komunikatu INIT do serwera
     struct msg send_msg;
     send_msg.to_do=INIT;
     sprintf(buffer, "%d", msgid_local);
     strcpy(send_msg.text,buffer);
-    msgsnd(msgid_server, &send_msg, MAX_TEXT, 0);
+    msgsnd(msgid_server, &send_msg, sizeof(send_msg), 0);
 
-    // odebranie swojego id z serwera
-    struct msg re_msg;
-    msgrcv(msgid_local, &re_msg, MAX_TEXT, 0,0);
-    int id_local=atoi(re_msg.text);
+    msgrcv(msgid_local, &send_msg, sizeof(send_msg), INIT,0);
+    id_local=send_msg.id;
     printf("You have just connected to server! Your ID: %d\n",id_local);
+
+    server_active=true;
 
     signal(SIGINT,stop_server);
 
@@ -163,16 +144,16 @@ int main(){
         ACTION to_do=convert(command);
         switch (to_do){
             case LIST:
-                list_server(id_local);
+                list_server(send_msg);
                 break;
             case ALL:
-                all_server(id_local,value1);
+                all_server(send_msg,value1);
                 break;
             case ONE:
-                one_server(id_local,value2,value1);
+                one_server(send_msg,atoi(value1),value2);
                 break;
             case STOP:
-                stop_server(id_local);
+                stop_server(send_msg);
                 break;
             case CHECK:
                 check();
@@ -184,5 +165,5 @@ int main(){
                 break;
         }
     }
-}
 
+}
