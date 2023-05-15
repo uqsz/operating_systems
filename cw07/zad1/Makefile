@@ -10,6 +10,5 @@ all: exec
 exec:
 	$(CC) $(EXEC_S).c -o $(EXEC_E)
 
-
 clean:
 	rm $(EXEC_E) $(EXEC_E1)
