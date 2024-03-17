@@ -1,6 +1,6 @@
 # Operating Systems
 
-This repository contains a series of labs related to operating systems concepts.
+This repository contains a series of labs related to operating systems concepts. All programs are implemented in C.
 
 ## Contents:
 
